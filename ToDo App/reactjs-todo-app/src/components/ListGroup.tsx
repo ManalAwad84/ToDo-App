@@ -98,7 +98,7 @@ function ListGroup(props: Props) {
                 <br />
                 <br />
 
-                <table className="table table-success table-striped table-hover tableWidth" hidden={todos.length == 0}>
+                <table className="table table-striped-columns table-hover tableWidth" hidden={todos.length == 0}>
                     <ListItem items={props.items} handleRemove={handleRemoveTodo}></ListItem>
                 </table>
                 <h3 hidden={todos.length > 0}>Add new Todo to display here!</h3>
