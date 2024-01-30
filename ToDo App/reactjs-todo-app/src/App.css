@@ -1,0 +1,32 @@
+p {
+    display: table-row;
+}
+
+label {
+    display: table-cell;
+}
+
+input {
+    display: table-cell;
+}
+
+.required {
+    color: red;
+}
+
+.error {
+    color: red;
+}
+
+tr.overdue td {
+    background-color: red;
+}
+
+.todoApp {
+    padding: 20px 20px 20px 20px;
+    color: blue;
+}
+
+.tableWidth {
+    width: 50%;
+}
